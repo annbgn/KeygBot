@@ -1,0 +1,48 @@
+from utils import press_sequence
+import time
+
+
+def lvl4():
+    moves = [
+        "w",
+        "e",
+        "e",
+        "r",
+        "d",
+        "s",
+        "a",
+        "z",
+        "x",
+        "c",
+        "f",
+        "t",
+        "y",
+        "g",
+        "v",
+        "b",
+        "h",
+        "u",
+        "i",
+        "o",
+        "k",
+        "k",
+        "k",
+        "k",
+        "j",
+        "n",
+        "m",
+        ",",
+        ",",
+        ",",
+        ",",
+        "l",
+        "l",
+        ",",
+        "m",
+        "n",
+        "j",
+        "k",
+        "o",
+        "p",
+    ]
+    press_sequence(moves)
